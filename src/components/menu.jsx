@@ -7,7 +7,10 @@ import {
   GiCoffeeMug,
   GiCoffeeCup,
   GiCoffeeBeans,
+  GiCoffeePot,
 } from "react-icons/gi";
+import { FaCoffee 
+} from "react-icons/fa";
 import {
   BiSolidCoffeeBean,
   BiSolidCoffeeTogo,
@@ -49,6 +52,16 @@ const offers = [
     icon: BiSolidCoffeeBean,
     title: "Bean Lover",
     desc: "Uma seleção especial para os amantes de café em grãos.",
+  },
+  {
+    icon: GiCoffeePot,
+    title: "Brew Master",
+    desc: "Café preparado lentamente na tradicional cafeteira, com aroma envolvente e sabor marcante.",
+  },
+  {
+    icon: FaCoffee,
+    title: "Morning Boost",
+    desc: "O despertar perfeito: forte, encorpado e feito sob medida para começar bem o dia.",
   },
 ];
 
