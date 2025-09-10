@@ -1,12 +1,12 @@
-import Header from './components/header'
 import './App.css'
-import MenuItems from './components/menu-items'
+import Header from './components/header'
+import Menu from './components/menu'
 
 function App() {
   return (
     <div className="">
       <Header />
-      <MenuItems />
+      <Menu />
     </div>
   )
 }
